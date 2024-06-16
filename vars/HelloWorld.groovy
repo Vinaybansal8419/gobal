@@ -1,5 +1,5 @@
 // File: HelloWorld.groovy
 
-def call() {
-    echo "Hello, World!"
+def call(String name, String day) {
+    echo "Hello, ${name}! Today is ${day}."
 }
